@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+    color: white;
+    margin-left: 400px;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
+}
+.container {
+    height: auto;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container h2 {
+    font-size: 30px;
+    color: black;
+}
+.nav {
+    width: 800px;
+    background-color: darkred;
+}
+.nav a {
+    color: snow;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    margin-left: 10px;
+}
+input {
+    float: right;
+    margin-right: 50px
+}
+.footer {
+    position: relative;
+    top: 20px;
+    height: 45px;
+    width: 800px;
+    background-color: darkslategray;
+}
+.footer p {
+    text-align: center;
+    color: whitesmoke;
+}
