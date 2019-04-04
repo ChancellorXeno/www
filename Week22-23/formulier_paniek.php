@@ -17,8 +17,8 @@
         </div>
         <form action="resultaat_paniek.php" method="GET">
             <h2>Er heerst paniek...</h2>
-            <p>Welk dier zou je nooit als huisdier willen hebben? <input required name="vraag1"></p>
-            <p>Wie is de belangrijkste persoon in je leven? <input required name="vraag2"></p>
+            <p>Welk dier zou je nooit als huisdier willen hebben? <input name="vraag1"></p>
+            <p>Wie is de belangrijkste persoon in je leven? <input name="vraag2"></p>
             <p>In welk land zou je graag willen wonen? <input required name="vraag3"></p>
             <p>Wat doe je als je je verveelt? <input required name="vraag4"></p>
             <p>Met welk speelgoed speelde je vroeger het meest? <input required name="vraag5"></p>

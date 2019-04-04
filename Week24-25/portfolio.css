@@ -1,0 +1,38 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #D3D3D3;
+}
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.carousel {
+	width: 1024px;
+	height: 600px;
+	margin: 0 auto;
+	z-index: 0;
+}
+.container {
+	text-align: center;
+	width: 705px;
+}
+.foto {
+	display: inline-block;
+	margin: 53.5px 50px 50px;
+	float: left;
+}
+.info {
+	display: inline-block;
+	margin: 53.5px 50px 50px;
+	max-width: 225px;
+	margin-bottom: 150px;
+}
+.gallery {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    column-width: 33%; 
+}
