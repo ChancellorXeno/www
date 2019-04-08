@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="opdracht.css">
-
+<link rel="stylesheet" href="style.css">
 <?php
 include 'menu.php';
 

@@ -8,4 +8,4 @@
     <a href="lab3.php">Lab 3</a>
 </div>
 
-<footer class="foot" >Footer</footer>
+<footer class="foot">Footer</footer>

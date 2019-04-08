@@ -1,5 +1,5 @@
+<link rel="stylesheet" href="style.css">
 <?php
-    include 'head.php';
     include 'menu.php';
     /* 1 */
     echo "<h1>Hello World!</h1>";

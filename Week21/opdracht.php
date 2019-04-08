@@ -1,7 +1,12 @@
-<?php  include 'head.php'; ?>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div class=container>
+    <div class='container'>
         <?php
     
         include 'menu.php';
@@ -13,27 +18,26 @@
 
         
         if ($uren >= "6" && $uren < "12") {
-            echo '<body class="morning">';
+            echo '<div class="morning"><h1>Good Morning<br>The time is ' ,$uren,':',$minuten,':',$seconden,' right now </h1>','</div>';
             $dagdelen = 'morning';
         }
         
         elseif ($uren >= "12" && $uren < "18") {
-            echo '<body class="afternoon">';
+            echo '<div class="afternoon"><h1>Good Morning<br>The time is ' ,$uren,':',$minuten,':',$seconden,' right now </h1>','</div>';
             $dagdelen = 'afternoon';
+            
         }
         
         elseif ($uren >= "18" && $uren < "00") {
-            echo '<body class="evening">';
+            echo '<div class="evening"><h1>Good Morning<br>The time is ' ,$uren,':',$minuten,':',$seconden,' right now </h1>','</div>';
             $dagdelen = 'evening';
         }
         
         elseif ($uren >= "00" && $uren < "6") {
-            echo '<body class="night">';
+            echo '<div class="night"><h1>Good Morning<br>The time is ' ,$uren,':',$minuten,':',$seconden,' right now </h1>','</div>';
             $dagdelen = 'night';
         }
 
-        echo '<h1>' , 'Good ' , $dagdelen , '</h1>';
-        echo '<h1>' , 'The time is ' , $uren , ":" , $minuten , ":" , $seconden , ' right now' , '</h1>';
         ?>
     </div>
 </body>
