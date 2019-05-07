@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>&#65279;</title>
+</head>
+<body>
 	<!-- GET -->
 
 <?php
@@ -21,3 +28,5 @@
 		exit();
 	}
 ?>
+</body>
+</html>

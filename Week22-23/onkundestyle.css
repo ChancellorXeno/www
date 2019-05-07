@@ -30,9 +30,9 @@ h1 {
     position: relative;
     margin-left: 10px;
 }
-input {
+.input {
     float: right;
-    margin-right: 50px
+    margin-right: 50px;
 }
 .footer {
     position: relative;
@@ -45,4 +45,9 @@ input {
 .footer p {
     text-align: center;
     color: whitesmoke;
+    margin-left: 100px;
+}
+.info {
+    margin: 0px 0px 5px 10px;
+    color: #000;
 }

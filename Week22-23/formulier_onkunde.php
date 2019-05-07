@@ -16,6 +16,7 @@
     <div class="nav">
         <a href="formulier_paniek.php">Er heerst paniek...</a>
         <a href="#">Onkunde</a>
+        <p class="info">Er heerst paniek is anders (slechter) gemaakt dan Onkunde</p>
     </div>
 
     <?php
@@ -50,47 +51,47 @@
             <div class="form-group">
                 <label class="col-sm-6" for="kunnen">Wat zou je graag willen kunnen?</label> <span class="error"><?php echo $dataErr["kunnen"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="kunnen" name="kunnen" value="<?php echo $data["kunnen"] ?>">
+                    <input type="text" class="form-control input" id="kunnen" name="kunnen" value="<?php echo $data["kunnen"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="persoon">Met welke persoon kun je goed opschieten??</label> <span class="error"><?php echo $dataErr["persoon"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="persoon" name="persoon" value="<?php echo $data["persoon"] ?>">
+                    <input type="text" class="form-control input" id="persoon" name="persoon" value="<?php echo $data["persoon"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="getal">Wat is je favoriete getal?</label> <span class="error"><?php echo $dataErr["getal"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="getal" name="getal" value="<?php echo $data["getal"] ?>">
+                    <input type="text" class="form-control input" id="getal" name="getal" value="<?php echo $data["getal"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="voorwerp">Wat heb je altijd bij je als je op vakantie gaat?</label> <span class="error"><?php echo $dataErr["voorwerp"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="voorwerp" name="voorwerp" value="<?php echo $data["voorwerp"] ?>">
+                    <input type="text" class="form-control input" id="voorwerp" name="voorwerp" value="<?php echo $data["voorwerp"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="eigenschap">Wat is je beste persoonlijke eigenschap</label> <span class="error"><?php echo $dataErr["eigenschap"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="eigenschap" name="eigenschap" value="<?php echo $data["eigenschap"] ?>">
+                    <input type="text" class="form-control input" id="eigenschap" name="eigenschap" value="<?php echo $data["eigenschap"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="seigenschap">Wat is je slechtste persoonlijke eigenschap?</label> <span class="error"><?php echo $dataErr["seigenschap"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="seigenschap" name="seigenschap" value="<?php echo $data["seigenschap"] ?>">
+                    <input type="text" class="form-control input" id="seigenschap" name="seigenschap" value="<?php echo $data["seigenschap"] ?>">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-6" for="overkomen">Wat is het ergste dat je kan overkomen?</label> <span class="error"><?php echo $dataErr["overkomen"]?></span>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" id="overkomen" name="overkomen" value="<?php echo $data["overkomen"] ?>">
+                    <input type="text" class="form-control input" id="overkomen" name="overkomen" value="<?php echo $data["overkomen"] ?>">
                 </div>
             </div>
 
-            <input type="submit" id="submit">
+            <input class="input" type="submit" id="submit">
         </form>
     </div>
 

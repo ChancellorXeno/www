@@ -39,8 +39,8 @@ body{
 .nav{
     position: absolute;
     height: 58px;
-    width: 320px;
-    background-color: rgb(255, 231, 231);
+    width: 295px;
+    background-color: grey;
     border-radius: 0 0 15px 15px;
     z-index: 1;
     left: 50%;
@@ -51,12 +51,13 @@ body{
     top: 20px;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(60, 184, 184);
+    margin-right: 5px;
+    background-color: darkgrey;
     border-radius: 5px;
     color: black;
 }
 .nav a:hover{
-    background-color: rgb(0, 139, 139);
+    background-color: #363636;
     color: white;
 }
 footer{
