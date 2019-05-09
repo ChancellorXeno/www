@@ -6,7 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" onclick="scrollToTop()">Home</a>
+        <a class="nav-link home" onclick="scrollToTop()">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#Me">Over mij</a>
@@ -15,7 +15,7 @@
         <a class="nav-link" href="#Gallery">Opdrachten</a>
       </li>
       <li class="nav-item">
-        <a class="navbar-brand navGallery" href="lab1.php">Lab Gallery</a>
+        <a class="navbar-brand navGallery" href="labgallery.php">Lab Gallery</a>
       </li>
       <li class="nav-item">
         <a class="navbar-brand" href="labcarousel.php">Lab Carousel</a>
@@ -23,3 +23,8 @@
     </ul>
   </div>
 </nav>
+<style type="text/css">
+  .home {
+    cursor: pointer;
+  }
+</style>

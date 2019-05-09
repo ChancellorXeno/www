@@ -49,6 +49,9 @@
 </div>
   
   <style>
+    body {
+      background-color: #D3D3D3;
+    }
     .gallery {
     -webkit-column-count: 3;
     column-count: 3;

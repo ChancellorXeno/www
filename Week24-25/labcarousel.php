@@ -12,12 +12,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <style>
+    body {
+      background-color: #D3D3D3;
+    }
     .carousel {
-      width: 678px;
-      height: 678px;
+      width: 1000px;
+      height: 586px;
     }
     .carousel {
       margin: 0 auto;
+      margin-bottom: 93px;
     }
   </style>
 </head>
@@ -34,13 +38,13 @@
     
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="w-100" src="img/404.jpg" alt="Los Angeles">
+        <img class="w-100" src="img/depres.png" alt="Los Angeles">
       </div>
       <div class="carousel-item">
-        <img class="w-100" src="img/drake.jpg" alt="Chicago">
+        <img class="w-100" src="img/watch.png" alt="Chicago">
       </div>
       <div class="carousel-item">
-        <img class="w-100" src="img/elmo.jpg" alt="New York">
+        <img class="w-100" src="img/infinity.jpg" alt="New York">
       </div>
     </div>
     
