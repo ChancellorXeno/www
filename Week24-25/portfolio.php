@@ -48,7 +48,10 @@
   </div>
   <div class="container">
     <img class="foto" src="img/error.jpg">
-    <p class="info">Dit is informatie over mij.Links komt een foto van mij. Dit is informatie over mij.Links komt een foto van mij. Dit is informatie over mij.Links komt een foto van mij. Dit is informatie over mij.Links komt een foto van mij.</p>
+    <p class="info">Ik ben 18 jaar oud.
+    	<br>Ik ben leergierig, en ik deel ook graag mijn kennis met anderen.
+    	<br>Thuis besteed ik mijn tijd vooral aan gamen, en programmeren aan school of voor mezelf.
+    	<br><br>Ik ben nog bezig met mijn portfolio, dit is nog niet het eindresultaat.</p>
   </div>
   <a name="Gallery"></a>
     <div class="container-fluid headers">
@@ -58,26 +61,26 @@
     <div class="gallery"><!-- Grid row -->
       
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short" src="img/game.PNG" alt="Card image cap">
+        <img class="img-fluid short assignment" src="img/game.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
    
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long" src="img/lingo.PNG" alt="Card image cap">
+        <img class="img-fluid long assignment" src="img/lingo.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
 
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long" src="img/politiek.PNG" alt="Card image cap">
+        <img class="img-fluid long assignment" src="img/politiek.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
 
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short" src="img/cafe.PNG" alt="Card image cap">
+        <img class="img-fluid short assignment" src="img/cafe.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
       
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short" src="img/handy.PNG" alt="Card image cap">
+        <img class="img-fluid short assignment" src="img/handy.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long" src="img/responsive.PNG" alt="Card image cap">
+        <img class="img-fluid long assignment" src="img/responsive.PNG" alt="Card image cap">
       </div><!-- /Grid column -->
     </div><!-- /Grid row -->
   </div>

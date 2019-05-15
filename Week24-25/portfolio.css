@@ -26,16 +26,16 @@ body {
 }
 .foto {
 	display: inline-block;
-	margin: 0px 50px;
+	margin: 0px 25px;
 	float: left;
 	width: 250px !important;
 	height: 250px !important;
 }
 .info {
 	display: inline-block;
-	margin: 0px 50px;
+	margin: 0px 25px;
 	max-width: 225px;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 .gallery {
     -webkit-column-count: 3;
@@ -60,4 +60,7 @@ body {
 }
 .navGallery {
 	margin-left: 1rem !important;
+}
+.assignment:hover {
+    opacity: 0.75;
 }
