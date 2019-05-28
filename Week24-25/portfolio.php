@@ -48,9 +48,8 @@
   </div>
   <div class="container">
     <img class="foto" src="img/error.jpg">
-    <p class="info">Ik ben 18 jaar oud.
-    	<br>Ik ben leergierig, en ik deel ook graag mijn kennis met anderen.
-    	<br>Thuis besteed ik mijn tijd vooral aan gamen, en programmeren aan school of voor mezelf.
+    <p class="info">Ik ben leergierig, en ik deel ook graag mijn kennis met anderen.
+    	<br>In mijn vrije tijd besteed ik mijn tijd vooral aan gamen, en programmeren aan school of voor mezelf.
     	<br><br>Ik ben nog bezig met mijn portfolio, dit is nog niet het eindresultaat.</p>
   </div>
   <a name="Gallery"></a>
@@ -61,26 +60,26 @@
     <div class="gallery"><!-- Grid row -->
       
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short assignment" src="img/game.PNG" alt="Card image cap">
+        <a href=""><img class="img-fluid short assignment" src="img/game.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
    
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long assignment" src="img/lingo.PNG" alt="Card image cap">
+        <a href="https://github.com/ChancellorXeno/Week-14-Lingo-"><img class="img-fluid long assignment" src="img/lingo.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
 
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long assignment" src="img/politiek.PNG" alt="Card image cap">
+        <a href="https://github.com/ChancellorXeno/Toets-Blok2"><img class="img-fluid long assignment" src="img/politiek.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
 
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short assignment" src="img/cafe.PNG" alt="Card image cap">
+        <a href="https://github.com/ChancellorXeno/www/tree/master/Week22-23"><img class="img-fluid short assignment" src="img/mad.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
       
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid short assignment" src="img/handy.PNG" alt="Card image cap">
+        <a href="https://github.com/ChancellorXeno/Handy"><img class="img-fluid short assignment" src="img/handy.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
       <div class="mb-3"><!-- Grid column -->
-        <img class="img-fluid long assignment" src="img/responsive.PNG" alt="Card image cap">
+        <a href="https://github.com/ChancellorXeno/Responsive"><img class="img-fluid long assignment" src="img/responsive.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
     </div><!-- /Grid row -->
   </div>

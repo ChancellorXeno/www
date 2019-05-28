@@ -35,7 +35,7 @@ body {
 	display: inline-block;
 	margin: 0px 25px;
 	max-width: 225px;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .gallery {
     -webkit-column-count: 3;

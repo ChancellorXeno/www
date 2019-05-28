@@ -11,7 +11,7 @@
     
         include 'menu.php';
         
-        date_default_timezone_set('Europe/Amsterdam');
+        date_default_timezone_set('Europe/Netherlands');
         $uren = date("H");
         $minuten = date("i");
         $seconden = date('s');

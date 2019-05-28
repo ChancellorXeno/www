@@ -5,12 +5,19 @@
 }
 .afternoon{
     background-image: url(img/afternoon.png);
+    height: 100%;
+    width: 100%;
 }
 .evening{
     background-image: url(img/evening.png);
+    height: 100%;
+    width: 100%;
 }
 .night{
     background-image: url(img/night.png);
+    height: 100%;
+    width: 100%;
+    color: white;
 }
 .container{
     height: 100%;
