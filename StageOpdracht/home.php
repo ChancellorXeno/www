@@ -3,31 +3,39 @@
 <head>
   <title>Home</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="home_style.css">
 </head>
 <body>
-	
-	<nav>
-		<div class="nav_inner">
-			<a href="home.php"><img class="logo" src="img/logo.png"></a>
-			<ul class="navmenu">
-				<li class="menu_item"><a href="home.php">Home</a></li>
-				<li class="menu_item"><a href="reviews.php">Reviews</a></li>
-				<li class="menu_item"><a href="contact.php">Contact</a></li>
-			</ul>
+	<? include "navigation.php"; ?>
+
+
+	<img class="bigpic" src="img/2018-Honda-Accord-side_12627_001_2400x1800_WA.png">
+	<div class="newsletter">
+		<div class="newsletter_inner">
+			<p class="news_text">Want to stay up to date? Subscribe for our newsletter!</p><input class="news_mail" type="text" placeholder="example@gmail.com">
 		</div>
-	</nav>
+	</div>
 
+	
 	<div class="home_container">
-		<p class=" grid_item outsidetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<img class=" grid_item outside" src="img/outside.png">
-		<img class=" grid_item inside" src="img/inside.jpg">
-		<p class=" grid_item insidetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h1 class="header">Programs</h1>
+		<img class="deals_img img1" src="img/professional-car-wash.jpg">
+		<img class="deals_img img2" src="img/car-care-interior.jpeg">
+		<img class="deals_img img3" src="img/IMG_89830912.jpg">
+		<h3 class="header1">Exterior</h3>
+		<h3 class="header2">Interior</h3>
+		<h3 class="header3">Self Service</h3>
+		<p class="text text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p class="text text2">Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Eget duis at tellus at urna condimentum mattis pellentesque id.</p>
+		<p class="text text3">At tempor commodo ullamcorper a lacus vestibulum sed arcu. Montes nascetur ridiculus mus mauris vitae ultricies. Amet purus gravida quis blandit.</p>
 	</div>
 
-	<div class="footer">
-		<li class="footer_item">Location:<br><br>Some Country<br>Some town<br>Some Address</li>
-		<li class="footer_item">Phone number:<br>06 66666666<br><br>© 2019<br>Some car wash company</li>
-	</div>
+
+
+	<footer>
+		<a href="https://github.com/ChancellorXeno" class="footer_link footer_item">My GitHub</a>
+		<p class="footer_item">© Ricardo Veen</p>
+		<p class="compar">Created for <a href="https://www.compar.nl/">@ Compar</a></p>
+	</footer>
 
 </body>
