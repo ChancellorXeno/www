@@ -72,7 +72,7 @@
       </div><!-- /Grid column -->
 
       <div class="mb-3"><!-- Grid column -->
-        <a href="https://github.com/ChancellorXeno/www/tree/master/Week22-23"><img class="img-fluid short assignment" src="img/mad.PNG" alt="Card image cap"></a>
+        <a href="https://github.com/ChancellorXeno/www/tree/master/StageOpdracht"><img class="img-fluid short assignment" src="img/stageopdracht.PNG" alt="Card image cap"></a>
       </div><!-- /Grid column -->
       
       <div class="mb-3"><!-- Grid column -->

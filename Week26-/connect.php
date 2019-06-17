@@ -11,8 +11,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "<script>console.log('connection succesful');</script>";
 }
-catch(PDOException $e)
-{
+catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage()."<br/>";
 }
 ?>
